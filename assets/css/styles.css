@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Make sure the body is at least the height of the viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+button, a {
+	cursor: pointer;
+}
+
+.e-commerce *:focus {
+	outline: 2px #00000040 solid !important;
+}
+
+.ecommerce .bg-green {
+	background-color: #64943E;
+}
+
+.h-20p {
+	height: 20px;
+}
+
+/* paddings */
+.pad-h-5 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.pad-v-5 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.pad-5 {
+	padding: 5px;
+}
+
+.pad-2 {
+	padding: 2px;
+}
+
+.b-radius-5 {
+	border-radius: 5px;
+}
+/* end */
+
+.w-100p {
+	width: 100px;
+}
+
+.floatR {
+	float: right;
+}
+
+.no-bg {
+	background-color: transparent;
+}
+
+.whiteColor {
+	color: white;
+}
+
+.min-w-500 {
+	min-width: 500px;
+}
+
+.cart-count {
+	position: relative;
+	left: -15px;
+    bottom: 20px;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.countdown {
+	color: red;
+}
+
+.big-price {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.small-price {
+	bottom: 8px;
+	position: relative;
+	font-size: 20px;
+}
+
+.card-img-top {
+    max-height: 250px;
+}
+
+/* footer */
+footer {
+    color: #fff;
+    padding: 30px 0;
+    bottom: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.copyright {
+    order: 1;
+    flex: 1 1 100%;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.privacy-policy {
+    order: 2;
+    flex: 1 1 50%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.privacy-policy a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.privacy-policy a:not(:first-child) {
+	margin-left: 10px;
+	margin-right: 0 !important;
+}
+
+.social-media {
+    order: 3;
+    flex: 1 1 30%;
+    text-align: right;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-media img {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+    transform: scale(1.2);
+}
+/* end */
+
+@media (max-width: 767.98px) {
+    .min-w-xs-100 {
+        min-width: 100px;
+    }
+
+    .navbar .container-fluid {
+        justify-content: center;
+    }
+
+    .pad-t-xs-20 {
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .min-w-sm-100 {
+        min-width: 100px;
+    }
+}
